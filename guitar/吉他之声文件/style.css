@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: beige;
+}
+.wrapper{
+    width: 100%;
+    height: 2700px;
+    margin: 0px auto;
+}
+.heading{
+    width: 100%;
+    height: 90px;
+    margin: 0px auto;
+}
+.heading_title_1{
+    float:left;
+    margin-left: 50px;
+    font-family: "Gabriola";
+    font-size: 50px;
+    color: darkred;
+}
+.heading_title_2{
+    display: inline;
+    font-family: "Gabriola";
+    font-size: 60px;
+    padding-left: 20px;
+    color: grey;
+}
+.heading_nav{
+     padding-bottom: 30px;
+     padding-top: 30px;
+     width: 100%;
+     line-height: 30px;
+     position: relative;
+ }
+.heading_navbar{
+    float: right;
+}
+ul{
+    margin-right: 90px;
+    list-style-type: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+li{
+    padding-left: 20px;
+    display: inline;
+}
+.heading_navbar_a{
+    font-size: 20px;
+}
+a:link,a:visited{
+    color: black;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+}
+a:hover,a:active{
+    color: brown;
+}
+.music{
+    float: right;
+    margin-top: -30px;
+    margin-right: 10px;
+}
+.body_img  img{
+    width: 100%;
+    height: 500px;
+}
+.body2_background{
+    background-color: gainsboro;
+    width: 430px;
+    height: 500px;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+.body_img2 img{
+    margin-top: -25px;
+    margin-left: -25px;
+    width: 430px;
+    height: 500px;
+}
+.body3{
+    font-size: 30px;
+    font-family: "Adobe Garamond Pro";
+    color: black;
+    float: right;
+    margin-right: 390px;
+    margin-top: -520px;
+    width: 270px;
+    position: relative;
+}
+.body_title_c1{
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: black;
+    float: right;
+    margin-top: 40px;
+    position: absolute;
+}
+.body_title_c1_a{
+    font-size: 30px;
+}
+.border3_1{
+    width: 100px;
+    border-top: 7px solid darkred;
+    margin-top: -15px;
+    margin-left: 220px;
+    position: absolute;
+}
+.border3_2{
+    width: 200px;
+    height: 550px;
+    border-top: 7px solid gainsboro;
+    border-right: 7px solid gainsboro;
+    margin-top: -15px;
+    margin-left: 320px;
+    position: absolute;
+}
+.border3_3{
+    width: 780px;
+    height: 100px;
+    border-bottom: 7px solid gainsboro;
+    border-left: 7px solid gainsboro;
+    margin-top:440px;
+    margin-left: -260px;
+    position: absolute;
+}
+.border3_4{
+    width: 70px;
+    border-top: 3px solid darkred;
+    margin-top:100px;
+    position: absolute;
+}
+.body3_1{
+    width: 400px;
+    font-size: 15px;
+    text-indent: 2em;
+    line-height: 2em;
+    font-family: 微软雅黑;
+    color: dimgrey;
+    margin-top: 120px;
+    position: absolute;
+}
+.body_title_e1{
+    width: 200px;
+    font-size: 30px;
+    font-family: "Adobe Garamond Pro";
+    color: dimgrey;
+    margin-top: 490px;
+    margin-left: -500px;
+    position: absolute;
+}
+.border3_5{
+    width: 80px;
+    height: 80px;
+    border-bottom: 7px solid darkred;
+    border-left: 7px solid darkred;
+    margin-top:520px;
+    margin-left: -550px;
+    position: absolute;
+}
+.body4{
+    font-size: 30px;
+    font-family: "Adobe Garamond Pro";
+    color: black;
+    float: left;
+    margin-left: 470px;
+    margin-top: 200px;
+    width: 200px;
+    position: relative;
+}
+.body4_t{
+    margin-left: 30px;
+    position: absolute;
+}
+.body_title_c2{
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: black;
+    float: left;
+    margin-top: 80px;
+    margin-left: 20px;
+    position: absolute;
+}
+.body_title_c2_a{
+    font-size: 30px;
+}
+.border4_1{
+    width: 100px;
+    float: left;
+    border-top: 7px solid darkred;
+    margin-top: 20px;
+    margin-left: -150px;
+    position: absolute;
+}
+.border4_2{
+    width: 200px;
+    height: 550px;
+    border-top: 7px solid gainsboro;
+    border-left: 7px solid gainsboro;
+    margin-top: 20px;
+    margin-left: -355px;
+    position: absolute;
+}
+.border4_3{
+    width: 735px;
+    height: 100px;
+    border-bottom: 7px solid gainsboro;
+    border-right: 7px solid gainsboro;
+    margin-top:470px;
+    margin-left: -355px;
+    position: absolute;
+}
+.border4_4{
+    width: 70px;
+    border-top: 3px solid darkred;
+    margin-top:140px;
+    margin-left: 100px;
+    position: absolute;
+}
+.body4_1{
+    width: 400px;
+    font-size: 15px;
+    text-indent: 2em;
+    line-height: 2em;
+    font-family: 微软雅黑;
+    color: dimgrey;
+    margin-top: 160px;
+    margin-left: -220px;
+    position: absolute;
+}
+.body_title_e2{
+    width: 230px;
+    font-size: 30px;
+    font-family: "Adobe Garamond Pro";
+    color: dimgrey;
+    margin-top: 520px;
+    margin-left: 460px;
+    position: absolute;
+}
+.body_title_e3{
+    float: right;
+    margin-right: 10px;
+}
+.border4_5 {
+    width: 80px;
+    height: 80px;
+    border-bottom: 7px solid darkred;
+    border-right: 7px solid darkred;
+    float: right;
+    margin-top: 550px;
+    margin-left: 640px;
+    position: absolute;
+}
+.body5_background{
+    background-color: gainsboro;
+    width: 430px;
+    height: 500px;
+    float: right;
+    margin-top: 210px;
+    margin-right: 150px;
+}
+.body_img3 img{
+    width: 430px;
+    height: 500px;
+    float: right;
+    margin-top: -25px;
+    margin-right: -25px;
+}
+.body6 img{
+    width: 1300px;
+    height:600px;
+    float: left;
+    margin-top: 190px;
+    margin-left: 25px;
+}
+.body7{
+    font-size: 25px;
+    font-family: "Adobe 明體 Std L";
+    float: left;
+    margin-top: -400px;
+    margin-left: 30px;
+}
+.body7_1{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.body8_border1{
+    width: 500px;
+    border-top: 2px solid black;
+    float: left;
+    margin-top: 50px;
+}
+.body8_border2{
+    width: 500px;
+    border-top: 2px solid black;
+    float: right;
+    margin-top: 50px;
+}
+.body8_title{
+    width: 170px;
+    font-family: "Adobe 楷体 Std R";
+    float: left;
+    margin-top: -35px;
+    margin-left: 600px;
+}
+.body8_title_a{
+    font-size: 20px;
+}
+.span{
+    font-size: 30px;
+    color: orangered;
+    float:left;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
